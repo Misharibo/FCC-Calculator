@@ -31,7 +31,7 @@ const buttonPress = (symbol: string) => {
     if ( expression.charAt(0) !== "0") {
       setExpression(expression + symbol);
     } 
-    else if (symbol === ".") {
+    else if (symbol = ".") {
       // Split by operators and get last number
     const lastNumber = expression.split(/[-+/*]/g).pop();
       // if last number already has a decimal, don't add another
